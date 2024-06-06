@@ -2,20 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+use App\Http\Controllers\{
+    CarrosController,EventsController,MensagemController
+};
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[EventsController::class,'index'])->name('/');
+//Events Controller 
+Route::get('/Carros',[CarrosController::class,'Carros'])->name('car');
+
+Route::get('/Contactos',[EventsController::class,'contactos'])->name('contactos');
+Route::get('/car/details/{id}',[EventsController::class,'DetailsCar']);
 
 Route::middleware([
     'auth:sanctum',

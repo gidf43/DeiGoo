@@ -1,0 +1,3 @@
+para ligar o servidor de hospedagem 
+ngrok http 8000
+ligar na port:8000 porque é lá aonde roda a nossa aplicação 
