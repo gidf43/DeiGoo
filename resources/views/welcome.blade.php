@@ -39,7 +39,8 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">DEi<span style="color:#C800FF">Goo</span></a>
+	      <!--<a class="navbar-brand" href="/">DEi<span style="color:#C800FF">Goo</span></a>
+      --><a href="/" class="navbar-brand"> <img src="/assets/images/lo.png" alt="Logo"></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -91,7 +92,7 @@
                                         @endforeach
                                     </select>
                                     @else
-                                    
+                                  
                                     @endif
                                 </div>
 			    				<div class="form-group">
@@ -307,7 +308,7 @@
 						<div class="services services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-wedding-car"></span></div>
             	<div class="text w-100">
-                <h3 class="heading mb-2">Cerimonia de Casamento</h3>
+                <h3 class="heading mb-2">Cêrimonia de Casamento</h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
             </div>
@@ -316,7 +317,7 @@
 						<div class="services services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
             	<div class="text w-100">
-                <h3 class="heading mb-2">Cidada por Cidade</h3>
+                <h3 class="heading mb-2">Cidades por Cidades</h3>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
             </div>

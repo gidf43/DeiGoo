@@ -8641,7 +8641,7 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #FFC107        !important;
+    background: #F9D100        !important;
     border: 1px solid #c4b8b8d4     !important;
     color: #000  !important; }
     .btn.btn-primary:hover {
@@ -8657,7 +8657,7 @@ h1, h2, h3, h4, h5,
         background: #C800FF   ;
         color: #fff; }
   .btn.btn-secondary {
-    background: #FFC107    !important;
+    background: #F9D100    !important;
     border: 1px solid #FFEB3B     !important;
     color: #000 !important; }
     .btn.btn-secondary:hover {

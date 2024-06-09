@@ -23,9 +23,11 @@ class EventsController extends Controller
         $cars = Carros::WhereIn('preco_id',$preco)->get();
       
        $carro = Carros::get();
-       //$planos = Planos::get();'plano'=>$planos
+       $planos = Planos::get();
 
-        return view('welcome',['cars' => $cars,'carro'=>$carro,]);
+        return view('welcome',[
+            'cars' => $cars,'carro'=>$carro,'plano'=>$planos
+                                                                  ]);
     }
 
     public function contactos(){
