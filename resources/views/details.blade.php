@@ -205,11 +205,13 @@
 		</div>
 		<div class="modal-body">
 			<h5>Termine o Arrendamneto pelos seguintes meios</h5>
-			<span>Pelo Email: </span><a target="_black" type="emial" href="emailto:infodeigoo@gmail.com">infodeigoo@gmail.com</a>
+			<span>Pelo Email: </span><a target="_black" type="mail" href="mailto:infodeigoo@gmail.com">infodeigoo@gmail.com</a>
 			<br>
 			<span>Baixe a App: </span><a target="_black"  href="https://googleply.com/deigoo.app">Pelo Nosso Aplicativo</a>
 			<br>
-			<span>Ligue Agora: </span><a href="callto: +2449232039493 ">Atendimento personalizado.</a>
+			<span>WhatSapp: </span><a target="_black"  href="https://api.whatsapp.com/send?phone=55244...&text=Ol%C3%A1,%20Gostaria%20de%20Saber%20mais%20sobre%20a%20DeiGoo.">Mandar No WhatSapp</a>
+              <br>
+			<span>Ligue Agora: </span><a target="_black" href="callto: +2449232039493 ">Atendimento personalizado.</a>
 			<br>
 			<span>Pelo Site: </span><a target="_black" href="{{route('contactos')}}">Contacto dentro do site.</a>
 		</div>

@@ -21,13 +21,12 @@ class CarrosController extends Controller
             $query->where('nome', 'LIKE', '%' . $request->search . '%');
 
         }
-    
         // Get the list of preco IDs
         $preco_ids = Precos::pluck('id');
     
         // Apply the whereIn condition and paginate
-        $car = $query->whereIn('preco_id', $preco_ids)->paginate(3);
-    
+        $car = $query->whereIn('preco_id', $preco_ids)->paginate(6);
+        
         
         return view("car", ['car' => $car]);
     }

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Deigoo</title>
+    <title>DeiGoo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/open-iconic-bootstrap.min.css">
+
     <link rel="stylesheet" href="/assets/css/animate.css">
-    
+    <!--Icon -->
+    <link href="/assets/support/APP-ICON.png" rel="icon">
+
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="/assets/css/magnific-popup.css">
@@ -26,6 +29,7 @@
     <link rel="stylesheet" href="/assets/css/icomoon.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 
+
     <style>
 
         .spot{
@@ -40,7 +44,10 @@
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <!--<a class="navbar-brand" href="/">DEi<span style="color:#C800FF">Goo</span></a>
-      --><a href="/" class="navbar-brand"> <img src="/assets/images/lo.png" alt="Logo"></a>
+      --><a href="/" class="navbar-brand"> <img src="/assets/support/DEIGOO.png" alt="Logo" style="
+          width: 105px;
+          height: 40px;
+      "></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -78,7 +85,7 @@
     			<div class="col-md-12	featured-top">
     				<div class="row no-gutters">
 	  					<div class="col-md-4 d-flex align-items-center">
-	  						<form action="POST" class="request-form ftco-animate bg-primary">
+	  						<form class="request-form ftco-animate bg-primary">
 		          		    <h2>Faça sua viagem com Estilo</h2>
 			    				<div class="form-group">
 			    					<label for="carro" class="label">Selecione o Carro</label>
@@ -181,11 +188,13 @@
           </div>
           <div class="modal-body">
                   <h5>Termine o Arrendamneto pelos seguintes meios</h5>
-              <span>Pelo Email: </span><a target="_black" type="emial" href="mailto:infodeigoo@gmail.com">infodeigoo@gmail.com</a>
+              <span>Pelo Email: </span><a target="_black" type="email" href="mailto:infodeigoo@gmail.com">infodeigoo@gmail.com</a>
               <br>
               <span>Baixe a App: </span><a target="_black"  href="https://googleply.com/deigoo.app">Pelo Nosso Aplicativo</a>
               <br>
-              <span>Ligue Agora: </span><a href="callto: +2449232039493 ">Atendimento personalizado.</a>
+              <span>WhatSapp: </span><a target="_black"  href="https://api.whatsapp.com/send?phone=55244...&text=Ol%C3%A1,%20Gostaria%20de%20Saber%20mais%20sobre%20a%20DeiGoo.">Mandar No WhatSapp</a>
+              <br>
+              <span>Ligue Agora: </span><a href="callto: +2449232039493">Atendimento personalizado.</a>
               <br>
               <span>Pelo Site: </span><a target="_black" href="{{route('contactos')}}">Contacto dentro do site.</a>
             
@@ -278,7 +287,7 @@
 
     <section class="ftco-section ftco-about" id="about">
 			<div class="container">
-				<div class="row no-gutters">
+				<div class="row no-gutters">   
 					<div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(/assets/images/about.jpg);">
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate">
@@ -535,8 +544,11 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><a href="#" class="logo">Dei<span style="color: #C800FF;">Goo</span></a></h2>
-              <p>Na DeiGoo, encontras as melhores opções de Aluguel de Carro e os melhores Preços.</p>
+            <a href="/" class="navbar-brand"> <img src="/assets/support/DEIGOO.png" alt="Logo" style="
+    width: 105px;
+    height: 40px;
+"></a>
+        <p>Na DeiGoo, encontras as melhores opções de Aluguel de Carro e os melhores Preços.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -548,8 +560,8 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Informação</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
+                <li><a href="/#about" class="py-2 d-block">Sobre Nós</a></li>
+                <li><a href="/#services" class="py-2 d-block">Serviços</a></li>
                 <li><a href="terms" class="py-2 d-block">Termos e Condições</a></li>
                 <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
               </ul>
@@ -562,8 +574,8 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View. </span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+244 923 399 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="email">infodeigoo@gmail.com</span></a></li>
+	                <li><a href="callto: +2449232039493"><span class="icon icon-phone"></span><span class="text">+244 923 399 210</span></a></li>
+	                <li><a type="email" href="mailto:infodeigoo@gmail.com"><span class="icon icon-envelope"></span><span class="email">infodeigoo@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>

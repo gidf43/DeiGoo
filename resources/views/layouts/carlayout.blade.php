@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="/assets/css/flaticon.css">
     <link rel="stylesheet" href="/assets/css/icomoon.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="/assets/support/APP-ICON.png" rel="icon">
   </head>
   <body>
 
@@ -85,8 +86,12 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><a href="#" class="logo">Dei<span style="color: #C800FF;">Goo</span></a></h2>
-              <p>Na DeiGoo, encontras as melhores opções de Aluguel de Carro e os melhores Preços.</p>
+              
+            <a href="/" class="navbar-brand"> <img src="/assets/support/DEIGOO.png" alt="Logo" style="
+              width: 105px;
+              height: 40px;
+            "></a> 
+            <p>Na DeiGoo, encontras as melhores opções de Aluguel de Carro e os melhores Preços.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>

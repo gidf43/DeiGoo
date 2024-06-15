@@ -1,5 +1,5 @@
 @extends('layouts.carlayout')
-@section('title','Carros')
+@section('title','DeiGoo-Carros')
 @section('content')
 
 <style>
@@ -42,8 +42,11 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="/">DEi<span style="color:#C800FF">Goo</span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		<a href="/" class="navbar-brand"> <img src="/assets/support/DEIGOO.png" alt="Logo" style="
+		width: 105px;
+		height: 40px;
+	"></a> 
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
@@ -124,6 +127,20 @@
                 </form>
             </div>
         </div>
+
+		<div class="section-header">  
+          <h2 style="text-align:center">Nossos Carros</h2>
+		  @if($car)
+              @else
+              <div id="cards-container" class="row">
+          @endif
+          @if( count($car) == 0 && $car )
+              <p class="dp text-center">Nenhum Carro no momento com Esse nome :{{$car}} <a href="{{route('car')}}">Ver todos os Carros</a></p>
+          @elseif( count($car) == 0)
+            <div class="section-header">  
+                <p class="dp text-center">Nenhum Carro no momento foi Postado</p>
+            </div>
+          @endif
 
         <div class="row">
             @foreach($car as $carrs)

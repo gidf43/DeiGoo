@@ -1,11 +1,14 @@
 @extends('layouts.carlayout')
-@section('title','Contactos')
+@section('title','DeiGoo-Contactos')
 @section('content')
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="/">Dei<span style="color:#C800FF">Goo</span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		<a href="/" class="navbar-brand"> <img src="/assets/support/DEIGOO.png" alt="Logo" style="
+				width: 105px;
+				height: 40px;
+			"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
@@ -52,7 +55,7 @@
 			          	<div class="icon mr-3">
 			          		<span class="icon-mobile-phone"></span>
 			          	</div>
-			            <p><span>Telefone:</span> <a href="tel://1234567920">+244 982 273 273</a></p>
+			            <p><span>Telefone:</span> <a href="callto: +2449232039493">+244 982 273 273</a></p>
 			          </div>
 		          </div>
 		          <div class="col-md-12">
